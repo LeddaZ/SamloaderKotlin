@@ -1,6 +1,9 @@
 name: Desktop Build
 
 on:
+  push:
+    branches:
+      - master
   release:
     types:
       - published

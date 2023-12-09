@@ -4,6 +4,9 @@
 name: Build for macOS
 
 on:
+  push:
+    branches:
+      - master
 #  release:
 #    types:
 #      - published

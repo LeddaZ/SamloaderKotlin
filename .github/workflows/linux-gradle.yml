@@ -4,6 +4,9 @@
 name: Build for Ubuntu
 
 on:
+  push:
+    branches:
+      - master
 #  release:
 #    types:
 #      - published

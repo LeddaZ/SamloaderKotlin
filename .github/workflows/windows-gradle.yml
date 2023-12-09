@@ -4,6 +4,9 @@
 name: Build for Windows
 
 on:
+  push:
+    branches:
+      - master
 #  release:
 #    types:
 #      - published
